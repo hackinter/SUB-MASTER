@@ -100,8 +100,8 @@ def save_results(filename):
 def loading_animation():
     print("Loading... ", end="")
     for i in range(101):  # Total 101 iterations including 100
-        time.sleep(0.1)  # Adjust this to speed up the animation (10 seconds total)
-        print("\rLoading [" + "#" * i + " " + " " * (100 - i) + "] " + str(i) + "%", end="")
+        time.sleep(0.05)  # Adjust this to speed up the animation
+        print("\rLoading... [" + "#" * i + " " + " " * (100 - i) + "] " + str(i) + "%", end="")
     print("\n")
 
 def stop_loading_animation():
@@ -122,14 +122,14 @@ def banner():
     
     banner_text = f"""{yellow}
   
- ███████ ██    ██ ██████        ███    ███  █████  ███████ ████████ ███████ ██████  
- ██      ██    ██ ██   ██       ████  ████ ██   ██ ██         ██    ██      ██   ██ 
- ███████ ██    ██ ██████  █████ ██ ████ ██ ███████ ███████    ██    █████   ██████  
-      ██ ██    ██ ██   ██       ██  ██  ██ ██   ██      ██    ██    ██      ██   ██ 
- ███████  ██████  ██████        ██      ██ ██   ██ ███████    ██    ███████ ██   ██ 
+  ███████ ██    ██ ██████        ███    ███  █████  ███████ ████████ ███████ ██████  
+  ██      ██    ██ ██   ██       ████  ████ ██   ██ ██         ██    ██      ██   ██ 
+  ███████ ██    ██ ██████  █████ ██ ████ ██ ███████ ███████    ██    █████   ██████  
+       ██ ██    ██ ██   ██       ██  ██  ██ ██   ██      ██    ██    ██      ██   ██ 
+  ███████  ██████  ██████        ██      ██ ██   ██ ███████    ██    ███████ ██   ██ 
                                                                                  {reset}
 =====================================================================================  
-{yellow}[*] coded by ROOT@ANONYMIZER                                                      [*] 
+[*] coded by ROOT@ANONYMIZER                                                      [*] 
 [*] Copyright 2024 HACKINTER                                                      [*] 
 [*] just simple tools to make your life easier                                    [*] 
 [*] Thanks to ALLAH, Free Palestine                                               [*] 
