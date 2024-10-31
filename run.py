@@ -78,11 +78,11 @@ def run_subdomain_scan(target_domain):
     stop_loading_animation()  # Stop loading animation
 
     # Display found subdomains
-    logging.info("Found Subdomains:")
+    print("\nFound Subdomains:")
     for subdomain in found_subdomains:
         print(subdomain)
 
-    logging.info(f"Subdomain Count: {len(found_subdomains)}")  # Update subdomain count
+    print(f"\nSubdomain Count: {len(found_subdomains)}")  # Update subdomain count
 
 def save_results(filename):
     count = 1
@@ -122,11 +122,11 @@ def banner():
     
     banner_text = f"""{yellow}
   
-███████ ██    ██ ██████        ███    ███  █████  ███████ ████████ ███████ ██████  
-██      ██    ██ ██   ██       ████  ████ ██   ██ ██         ██    ██      ██   ██ 
-███████ ██    ██ ██████  █████ ██ ████ ██ ███████ ███████    ██    █████   ██████  
-     ██ ██    ██ ██   ██       ██  ██  ██ ██   ██      ██    ██    ██      ██   ██ 
-███████  ██████  ██████        ██      ██ ██   ██ ███████    ██    ███████ ██   ██ 
+ ███████ ██    ██ ██████        ███    ███  █████  ███████ ████████ ███████ ██████  
+ ██      ██    ██ ██   ██       ████  ████ ██   ██ ██         ██    ██      ██   ██ 
+ ███████ ██    ██ ██████  █████ ██ ████ ██ ███████ ███████    ██    █████   ██████  
+      ██ ██    ██ ██   ██       ██  ██  ██ ██   ██      ██    ██    ██      ██   ██ 
+ ███████  ██████  ██████        ██      ██ ██   ██ ███████    ██    ███████ ██   ██ 
                                                                                  {reset}
 =====================================================================================  
 {yellow}[*] coded by ROOT@ANONYMIZER                                                      [*] 
