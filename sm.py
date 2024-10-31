@@ -144,14 +144,15 @@ if __name__ == "__main__":
     clear()
     banner()  # Show banner
     
-    save_choice = input("[?] Do you want to save the tool result (Y/N): ").strip().upper()
     target_domain = input("[*] Enter your target domain (e.g., google.com): ")
     
+    run_subdomain_scan(target_domain)  # Start subdomain scan
+
+    save_choice = input("[?] Do you want to save the tool result (Y/N): ").strip().upper()
+    
     if save_choice == 'Y':
-        run_subdomain_scan(target_domain)  # Start subdomain scan
         filename = input("[!] Enter the filename (without extension): ")
         save_results(filename)  # Save results
     else:
-        run_subdomain_scan(target_domain)  # Start subdomain scan
         logging.info("Exiting without saving.")
         print("=====================================================================================")
