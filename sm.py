@@ -68,7 +68,7 @@ def run_subdomain_scan(target_domain):
         "crt.sh": f"https://crt.sh/?q={target_domain}&output=json"
     }
 
-    # Start fetching subdomains without loading animation
+    # Fetch subdomains
     for api_name, url in urls.items():
         fetch_subdomains(api_name, url)
 
@@ -115,7 +115,7 @@ def banner():
 [*] https://github.com/hackinter (Hacking is Creative problem solving)            [*] 
 ===================================================================================== {reset}
     """
-    slow_print(banner_text)
+    print(banner_text)  # Directly print the banner
 
 # Main execution
 if __name__ == "__main__":
