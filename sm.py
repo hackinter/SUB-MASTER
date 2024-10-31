@@ -68,14 +68,9 @@ def run_subdomain_scan(target_domain):
         "crt.sh": f"https://crt.sh/?q={target_domain}&output=json"
     }
 
-    # Start loading animation
-    loading_animation()
-
-    # Fetch subdomains
+    # Start fetching subdomains without loading animation
     for api_name, url in urls.items():
         fetch_subdomains(api_name, url)
-
-    stop_loading_animation()  # Stop loading animation
 
     # Display found subdomains
     print("\nFound Subdomains:")
@@ -96,22 +91,6 @@ def save_results(filename):
             file.write(subdomain + '\n')
 
     logging.info(f"[+] Results saved to: {filename}.txt")
-
-def loading_animation():
-    print("Loading... ", end="")
-    for i in range(101):  # Total 101 iterations including 100
-        time.sleep(0.05)  # Adjust this to speed up the animation
-        print("\rLoading... [" + "#" * i + " " + " " * (1 - i) + "] " + str(i) + "%", end="")
-    print("\n")
-
-def stop_loading_animation():
-    logging.info("Loading complete.")
-
-def slow_print(text, delay=0.05):
-    for char in text:
-        print(char, end='', flush=True)
-        time.sleep(delay)
-    print()
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
