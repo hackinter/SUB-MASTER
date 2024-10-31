@@ -36,7 +36,7 @@ A powerful subdomain scanner that utilizes multiple APIs to discover subdomains 
 ## Usage 🖥️
 Run the script using:
 ```bash
-python sub_master.py
+python sm.py
 ```
 Follow the on-screen instructions to:
 - Enter the target domain (e.g., google.com) 🌐
