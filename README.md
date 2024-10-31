@@ -16,7 +16,7 @@ A powerful subdomain scanner that utilizes multiple APIs to discover subdomains 
    ```bash
    python --version
    ```
-   If Python is not installed, please [![DOWNLOAD HEAR](https://img.shields.io/badge/PYTHON-DOWNLOAD-red.svg)](https://www.python.org/downloads/)
+   If Python is not installed, please [![DOWNLOAD HEAR](https://img.shields.io/badge/PYTHON-DOWNLOAD-blue.svg)](https://www.python.org/downloads/)
 
 2. Clone the repository:
    ```bash
@@ -53,7 +53,7 @@ Feel free to submit issues and pull requests. Your contributions are welcome! Pl
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements 🙏
-- Coded with love by [![ROOT](https://img.shields.io/badge/ROOT-ANONYMIZER-red.svg)](https://github.com.hackinter) 💖
+- Coded with love by [![ROOT](https://img.shields.io/badge/ROOT-ANONYMIZER-Black.svg)](https://github.com.hackinter) 💖
 - Special thanks to ALLAH and Free Palestine 🌍
 - Hacking is Creative Problem Solving!
 
