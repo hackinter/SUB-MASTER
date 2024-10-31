@@ -101,7 +101,7 @@ def loading_animation():
     print("Loading... ", end="")
     for i in range(101):  # Total 101 iterations including 100
         time.sleep(0.05)  # Adjust this to speed up the animation
-        print("\rLoading... [" + "#" * i + " " + " " * (100 - i) + "] " + str(i) + "%", end="")
+        print("\rLoading... [" + "#" * i + " " + " " * (1 - i) + "] " + str(i) + "%", end="")
     print("\n")
 
 def stop_loading_animation():
