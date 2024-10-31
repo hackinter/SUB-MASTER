@@ -54,7 +54,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements 🙏
 - Coded with love by [![ROOT](https://img.shields.io/badge/ROOT-ANONYMIZER-Black.svg)](https://github.com.hackinter) 💖
-- Special thanks to ALLAH and Free Palestine 🌍
+- Special thanks to ALLAH
+- Free Palestine 🌍
 - Hacking is Creative Problem Solving!
 
 ## Contact Me
