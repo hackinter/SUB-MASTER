@@ -53,7 +53,8 @@ Feel free to submit issues and pull requests. Your contributions are welcome! Pl
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements 🙏
-- Coded with love by [![ROOT](https://img.shields.io/badge/ROOT-ANONYMIZER-Black.svg)](https://github.com.hackinter) 💖
+- Coded with love by
+  [![ROOT](https://img.shields.io/badge/ROOT-ANONYMIZER-Black.svg)](https://github.com.hackinter) 💖
 - Special thanks to ALLAH
 - Free Palestine 🌍
 - Hacking is Creative Problem Solving!
